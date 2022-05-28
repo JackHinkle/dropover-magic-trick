@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dropover Magic Trick</title>
+		<meta name="author" content="Jack Hinkle">
+		<meta name="description" content="Dropover Magic Trick">
+	</head>
+
+	<body>
+		<div>
+			<img src="rabbit_hires.png" alt="Rabbit" class="rabbit">
+			<img src="hat_hires.png" alt="Top Hat" class="tophat">
+		</div>
+	</body>
+	
+	<style>
+		div {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 800px;
+		}
+		.rabbit {
+			position: relative;
+			width: 12%;
+		}
+		.tophat {
+			position: absolute;
+			width: 20%;
+			pointer-events: none;
+		}
+	</style>
+	
+</html>
